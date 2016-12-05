@@ -16,7 +16,7 @@ public class MainActivity extends AppWidgetProvider {
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
         super.onUpdate(context, appWidgetManager, appWidgetIds);
         RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.activity_main);
-        views.setTextViewText(R.id.tv, "Заработало!");
+        views.setTextViewText(R.id.tv, "Крассава!");
         appWidgetManager.updateAppWidget(appWidgetIds, views);
     }
 

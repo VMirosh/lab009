@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:background="#333333"
         android:gravity="center"
-        android:text="Привет! Я виджет"
+        android:text="Привет!"
         android:textColor="#deed04"
         android:textSize="24sp">
     </TextView>
